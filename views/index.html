@@ -1,0 +1,51 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: http://mozilla.github.io/nunjucks/ -->
+<!-- jade: http://jade-lang.com/ -->
+<!-- haml: http://haml.info/tutorial.html -->
+<!-- hbs(handlebars): http://handlebarsjs.com/expressions.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>twitter stream demo</title>
+    <meta name="description" content="twitter stream demo">
+    <link id="favicon" rel="icon" href="https://hyperweb.space/favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 
+      google fonts Space Mono 
+    -->
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+    <!--
+      fullPage.js jQuery plugin styles
+    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.2/jquery.fullPage.css">
+    <!--
+      custom styles
+    -->
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <!--
+      fullPage.js container
+    -->
+    <div id="fullpage">
+      <div class="section">
+        <h1>Twitter Stream Demo</h1>
+      </div>
+    </div>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.2/jquery.fullPage.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+
+  </body>
+</html>

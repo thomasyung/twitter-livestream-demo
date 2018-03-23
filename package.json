@@ -1,0 +1,31 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "twitterstreamdemo",
+  "version": "0.0.1",
+  "description": "Twitter Live Stream Demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.0.0-alpha.2",
+    "socket.io": "^2.0.4",
+    "twit": "^2.2.9"
+  },
+  "engines": {
+    "node": "4.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://hyperdev.com/#!/project/welcome-project"
+  },
+  "keywords": [
+    "node",
+    "hyperdev",
+    "express",
+    "twitter"
+  ],
+  "license": "MIT"
+}
