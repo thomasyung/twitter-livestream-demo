@@ -1,0 +1,95 @@
+/* Fonts */
+  @font-face {
+    font-family:'Burlingame Pro Bold';src:url(https://cdn.hyperdev.com/us-east-1%3Acf5ed5f0-e3fc-4211-a73e-b09a0432174c%2FBurlingamePro-CondBlack.woff) format("woff");font-weight:400;font-style:normal;
+  }
+  @font-face {
+    font-family:'Burlingame Pro Light';src:url(https://cdn.hyperdev.com/us-east-1%3Acf5ed5f0-e3fc-4211-a73e-b09a0432174c%2FBurlingamePro-Light.woff) format("woff");font-weight:400;font-style:normal;
+  }
+
+/* Reset CSS
+ * --------------------------------------- */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+    padding: 0;
+    margin: 0;
+}
+a{
+	text-decoration:none;
+}
+table {
+    border-spacing: 0;
+}
+fieldset,img {
+    border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-weight: normal;
+    font-style: normal;
+}
+strong{
+	font-weight: bold;
+}
+ol,ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+caption,th {
+    text-align: left;
+
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-size: 100%;
+    margin:0;
+    padding:0;
+    color:#444;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border: 0;
+}
+
+
+/* Custom CSS
+ * --------------------------------------- */
+body {
+  margin: 2em;
+  font-size: 100%;
+  font-size: calc(1em + 1vw);
+  line-height: 1.6875;
+  font-family: 'Burlingame Pro Light', monospace;
+	color: #333;
+	color: rgba(0,0,0,0.5);
+}
+
+a {
+  color: #2196F3;
+}
+
+.section {
+	text-align: center;
+}
+
+.section h1 { 
+  margin: 1em; 
+}
+
+.section p {
+  margin: 1em;
+  font-family: helvetica;
+  font-size: 75%;
+}
+
+.center-wrap {
+  max-width: 40em;
+  margin: 0 auto;
+}
+
+/* Responsive Breakpoints
+ * --------------------------------------- */
+
+@media (min-width: 1400px) {
+  .section h1 { margin: 0 4em; }
+}
